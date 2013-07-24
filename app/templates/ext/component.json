@@ -1,0 +1,10 @@
+{
+	"name": "<%= _.slugify(appName) %>",
+	"dependencies": {
+		"component/emitter": "*"
+	},
+	"main": "src/js/main.js",
+	"scripts": [
+		"src/js/main.js"
+	]
+}

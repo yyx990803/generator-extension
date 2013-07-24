@@ -1,0 +1,33 @@
+{
+  "name": "generator-dude",
+  "version": "0.0.1",
+  "description": "A generator for Yeoman",
+  "private": true,
+  "keywords": [
+    "yeoman-generator",
+    "dude"
+  ],
+  "homepage": "https://github.com/yyx990803/generator-dude",
+  "bugs": "https://github.com/yyx990803/generator-dude/issues",
+  "author": {
+    "name": "Evan You",
+    "email": "yyx990803@gmail.com",
+    "url": "https://github.com/yyx990803"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yyx990803/generator-dude.git"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.12.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "<%= _.slugify(appName) %>",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "",
+    "icons": {
+        "16": "images/icon-16.png",
+        "19": "images/icon-19.png",
+        "38": "images/icon-38.png",
+        "128": "images/icon-128.png"
+    },
+
+    "permissions": [],
+
+    "background": {
+        "scripts": [
+            "build/js/background.js"
+        ]
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["http://www.google.com/*", "https://www.google.com/*"],
+            "css": [
+                "build/css/inject.css"
+            ],
+            "js": [
+                "build/js/inject.js"
+            ]
+        }
+    ],
+
+    "web_accessible_resources": []
+
+}
