@@ -1,5 +1,5 @@
 {
-  "name": "generator-dude",
+  "name": "generator-extension",
   "version": "0.0.1",
   "description": "A generator for Yeoman",
   "private": true,
@@ -7,8 +7,8 @@
     "yeoman-generator",
     "dude"
   ],
-  "homepage": "https://github.com/yyx990803/generator-dude",
-  "bugs": "https://github.com/yyx990803/generator-dude/issues",
+  "homepage": "https://github.com/yyx990803/generator-extension",
+  "bugs": "https://github.com/yyx990803/generator-extension/issues",
   "author": {
     "name": "Evan You",
     "email": "yyx990803@gmail.com",
@@ -17,7 +17,7 @@
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yyx990803/generator-dude.git"
+    "url": "git://github.com/yyx990803/generator-extension.git"
   },
   "dependencies": {
     "yeoman-generator": "~0.12.0"
